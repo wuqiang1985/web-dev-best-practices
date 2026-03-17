@@ -1,0 +1,46 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "web-dev-best-practices",
+  "description": "Web 开发最佳实践 Claude Code 插件 — React 前端 + 数据库中间件的编码规范、技能库、专业代理和自动化钩子",
+  "owner": {
+    "name": "wuqiang1985",
+    "email": "112055730@qq.com"
+  },
+  "plugins": [
+    {
+      "name": "web-dev",
+      "source": "./",
+      "description": "Web 开发最佳实践插件 — 14 个编码规范、8 个技能库、6 个专业代理、5 个快捷命令、4 个自动化钩子",
+      "version": "1.0.0",
+      "author": {
+        "name": "wuqiang1985",
+        "email": "112055730@qq.com"
+      },
+      "homepage": "https://github.com/wuqiang1985/web-dev-best-practices",
+      "repository": "https://github.com/wuqiang1985/web-dev-best-practices",
+      "license": "MIT",
+      "keywords": [
+        "web-development",
+        "react",
+        "typescript",
+        "postgresql",
+        "redis",
+        "docker",
+        "best-practices",
+        "code-review",
+        "tdd",
+        "security"
+      ],
+      "category": "workflow",
+      "tags": [
+        "agents",
+        "skills",
+        "hooks",
+        "commands",
+        "react",
+        "database",
+        "best-practices"
+      ]
+    }
+  ]
+}
